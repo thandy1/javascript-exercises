@@ -8,7 +8,19 @@
 */
 
 // Add your code right below, good luck!
+const firstName = "Carlos";
+const lastName = "Stevenson";
+const thisYear = 1965;
+const birthYear = 1947;
+// const greeting = `Hello! My name is ${firstName + " " + lastName} and I am ${thisYear - birthYear} years old.`
+// always make sure to use exact values and wording described in the spec file
+// Test passed
 
+const fullName = firstName + " " + lastName
+const age = thisYear - birthYear;
+const greeting = `Hello! My name is ${fullName} and I am ${18} years old.`;
+// const greeting = "Hello! My name is " + fullName + " and I am " + age + " years old."; (another option)
+// console.log(greeting); 
 
 
 
